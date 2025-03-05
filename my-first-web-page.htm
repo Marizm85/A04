@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> My First Web Page</title>
+ <style>
+   /* Simce this is just an html page I am embedding the css styling in here */
+   body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     color: darkblue;
+     background-image: url(A04Background.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+   }
+   /* I am adding in a container because it is hard to read the words because of the background. I am also using & rather than px as I find that it adjusts to different platforms better. */
+   .container {
+     background: white;
+     max-width: 60%;
+     padding: 5%;
+     opacity: 0.8;
+     margin: auto;
+   }
+   .label {
+     color: royalblue;
+     font-weight: bold;
+   }
+   .answer {
+     color: black;
+     font-weight: normal;
+   } 
+ </style> 
+</head>
+  <Body>
+    <div class="container">
+    <h1> Welcome to Mariz Masoud's First IS 117 Web Page </h1>
+    <p><span class="label">Name:</span> <span class="answer">Mariz Masoud</span></p>
+        <p><span class="label">Username:</span> <span class="answer">mnm44</span></p>
+          <p><span class="label">Course:</span> <span class="answer">IS 117</span></p>
+                <p><span class="label">Section:</span> <span class="answer">002</span></p>
+  </div>
+  </body>
+  </html>
